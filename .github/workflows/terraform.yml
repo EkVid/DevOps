@@ -2,8 +2,6 @@ name: Terraform Apply
 
 on:
   push:
-    paths:
-      - "terraform/**" # Run only if files in terraform/ change
     branches:
       - main
 

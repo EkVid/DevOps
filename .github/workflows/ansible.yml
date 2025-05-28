@@ -2,8 +2,6 @@ name: Ansible Playbook Run
 
 on:
   push:
-    paths:
-      - "ansible/**" # Run only if files in ansible/ change
     branches:
       - main
 
